@@ -20,24 +20,24 @@ import Login from "./components/pages/Login";
 import ResetPassword from "./components/pages/ResetPassword";
 import Profile from "./components/ProfileComponent/profile";
 const routes = createBrowserRouter([
+    // {
+    //     path: "/",
+    //     element: <App />,
+    //     children: [
+    //         { index: true, element: <Home /> },
+    //         { path: "/Events", element: <Events /> },
+    //         { path: "/Contact", element: <ContactUs /> },
+    //         { path: "/Blogs", element: <Blogs /> },
+    //         { path: "/Articles/:id", element: <Article /> },
+    //         { path: "/Login", element: <Login /> },
+    //         { path: "/ResetPassword", element: <ResetPassword /> },
+    //         { path: "/Articles/:ArticleId", element: <Article /> },
+    //         { path: "/Profile", element: <Profile /> },
+
+    //     ],
+    // },
     {
         path: "/",
-        element: <App />,
-        children: [
-            { index: true, element: <Home /> },
-            { path: "/Events", element: <Events /> },
-            { path: "/Contact", element: <ContactUs /> },
-            { path: "/Blogs", element: <Blogs /> },
-            { path: "/Articles/:id", element: <Article /> },
-            { path: "/Login", element: <Login /> },
-            { path: "/ResetPassword", element: <ResetPassword /> },
-            { path: "/Articles/:ArticleId", element: <Article /> },
-            { path: "/Profile", element: <Profile /> },
-
-        ],
-    },
-    {
-        path: "/Dashboard",
         element: <Dashboard />,
         children: [
             { index: true, element: <Overview /> },

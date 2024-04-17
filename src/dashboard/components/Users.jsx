@@ -18,7 +18,7 @@ function Users() {
         <Card icon={<BiBuildings size={50}/>}  color='bg-gradient-to-r from-red-500 to-pink-500' title='Sections' nbr="7"/> 
 
       </div>
-      <p className='text-gray-500 text-md font-semibold mt-8 leading-6 border-l-[3px] border-primaryColor pl-3 md:pl-1'>Hi Admin This All Members in your Website <strong className='text-primaryColor'>CNTIC Club</strong> You can to check of users and you can to block or delete account </p>
+      <p className='text-gray-500 text-md font-semibold mt-8 leading-6 border-l-[3px] border-primaryColor pl-3 md:pl-1'>Hi Admin This All Users in your Website <strong className='text-primaryColor'>Telemcen University</strong> You can to check of users and you can to block or delete account </p>
       {/* users  */}
       <div className='users mt-7 overflow-hidden overflow-x-visible relative'>
         <div className='overlay hidden w-[850px] md:w-full h-full absolute left-0 top-0 bg-transparent  z-[1]'></div>

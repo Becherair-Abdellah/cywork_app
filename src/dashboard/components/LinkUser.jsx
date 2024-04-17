@@ -31,7 +31,7 @@ function LinksUser() {
       <NavLink to="blogs" onClick={()=>{
         dispatch(hide())
       }}><li className='flex items-center gap-3 p-3 px-2 text-[15px] hover:bg-gray-100  cursor-pointer  mb-3 rounded-md text-gray-600' ><RiArticleLine   size={21} /><span className={spanStyle}>News</span></li></NavLink>
-      <NavLink to="blogs" onClick={()=>{
+      <NavLink to="" onClick={()=>{
         dispatch(hide())
       }}><li className='flex items-center gap-3 p-3 px-2 text-[15px] hover:bg-gray-100  cursor-pointer  mb-3 rounded-md text-gray-600' ><IoMdSettings   size={21} /><span className={spanStyle}>Settings</span></li></NavLink>
     </motion.ul>
